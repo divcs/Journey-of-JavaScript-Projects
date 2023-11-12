@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 /*
 =============== 
@@ -43,8 +43,8 @@ Variables
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -225,7 +225,7 @@ Slider
 }
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./img-2.jpeg") center/cover no-repeat;
+    url('./img-2.jpeg') center/cover no-repeat;
 }
 .btn-container {
   display: flex;
@@ -234,19 +234,22 @@ Slider
 }
 .prevBtn,
 .nextBtn {
-  background: transparent;
+  /* background: transparent; */
+  background: #1f8296;
   border-color: transparent;
-  font-size: 1.75rem;
+  border-radius: 10px;
+  font-size: 1.7rem;
   cursor: pointer;
-  margin: 0 0.25rem;
+  margin: 1 0.25rem;
+  padding: 2.7px;
   text-transform: capitalize;
   letter-spacing: 2px;
-  color: var(--clr-grey-5);
+  color: rgb(228, 225, 225);
   transition: var(--transition);
 }
 .prevBtn:hover,
 .nextBtn:hover {
-  color: var(--clr-grey-3);
+  color: rgb(59, 61, 65);
 }
 
 @media screen and (min-width: 576px) {
