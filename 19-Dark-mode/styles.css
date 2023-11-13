@@ -50,9 +50,10 @@ Navbar
   padding: 2rem 0;
 }
 .nav-center span {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-transform: capitalize;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 .btn {
   background: var(--clr-primary);
