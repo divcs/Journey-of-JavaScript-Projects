@@ -58,7 +58,7 @@ Navbar
 .btn {
   background: var(--clr-primary);
   color: var(--clr-bcg);
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 5px;
   border-color: transparent;
   text-transform: capitalize;
